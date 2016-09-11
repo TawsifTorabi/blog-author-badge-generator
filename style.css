@@ -1,0 +1,91 @@
+/* Coded By TawsifTorabi */
+/* fb.com/tawsif.torabi */
+/* blog.grplusbd.net */
+	
+	body{
+		background-color:#000000;
+		margin-left: 0px;
+		font-family: arial;
+		color: white;
+	}
+	
+	.body{
+		margin-left:20%;
+		margin-right:20%;
+		margin-top:80px;
+		background-color:rgba(33, 150, 243, 0.6);
+		padding: 10px 15px;
+		border-radius: 8px;
+		overflow: hidden;
+		
+	}
+	h2{
+		color: white;
+	}
+	.rightcontent{
+		float: right;
+		margin-right: 12px;
+	}
+	table,th.controls{
+		border: 1px solid blue;
+		color: white;
+		border-radius: 8px;
+		box-shadow: 0px 1px 15px black;
+		padding: 5px 7px;
+		font-size: 15px;
+	}
+	.inputcolor{
+		width: 55px;
+		font-family: courier;
+		border: none;
+		border-bottom: 2px solid black;
+		border-radius: 8px;
+		text-align: center;
+	}
+	#gencode{
+		width: 400px;
+		height: 80px;
+		font-family: courier;
+		color: green;
+		outline: none;
+		-webkit-textarea-scroll: none;
+		resize: none;
+		border-radius: 8px;
+		width: 90%;
+		overflow:hidden;
+	}
+	#copymsg, #genmsg, #imgmsg{
+		padding: 5px 10px;
+		font-family: arial;
+		background-color: #7df57d;
+		border-radius: 9px;
+		font-weight: bold;
+		color: #0000;
+		z-index: 999;
+		position: fixed;
+		top: 40%;
+		right: 40%;
+		color: black;
+		box-shadow: 0px 1px 15px black;
+	}
+	button {
+		-webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+		-moz-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+		box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+		color: #333;
+		background-color: #FA2;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border: none;
+		font-family: arial;
+		font-size: 16px;
+		font-weight: 700;
+		/* height: 36px; */
+		padding: 4px 16px;
+		text-shadow: #FE6 0 1px 0;
+	}
+	a, :hover, :active, :visited{
+		color: white; 
+		text-decoration: none;
+	}
